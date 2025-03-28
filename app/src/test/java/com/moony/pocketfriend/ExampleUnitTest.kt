@@ -1,4 +1,4 @@
-package com.moony.poketfriend
+package com.moony.pocketfriend
 
 import org.junit.Test
 

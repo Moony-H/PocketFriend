@@ -1,4 +1,4 @@
-package com.moony.poketfriend
+package com.moony.pocketfriend
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,14 +11,16 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.moony.poketfriend.ui.theme.PoketFriendTheme
+import com.moony.pocketfriend.ui.theme.PocketFriendTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            PoketFriendTheme {
+            PocketFriendTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Android",
@@ -41,7 +43,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    PoketFriendTheme {
+    PocketFriendTheme {
         Greeting("Android")
     }
 }

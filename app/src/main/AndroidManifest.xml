@@ -10,13 +10,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PoketFriend"
-        tools:targetApi="31">
+        android:theme="@style/Theme.PocketFriend"
+        tools:targetApi="31"
+        android:name=".PocketFriendApplication"
+        >
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.PoketFriend">
+            android:theme="@style/Theme.PocketFriend">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

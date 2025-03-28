@@ -19,5 +19,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PoketFriend"
+rootProject.name = "PocketFriend"
 include(":app")
+include(":data")
+include(":domain")
+include(":model")

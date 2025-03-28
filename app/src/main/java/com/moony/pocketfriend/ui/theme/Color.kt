@@ -1,4 +1,4 @@
-package com.moony.poketfriend.ui.theme
+package com.moony.pocketfriend.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
