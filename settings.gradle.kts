@@ -21,7 +21,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "PocketFriend"
 include(":app")
-include(":data")
-include(":domain")
-include(":model")
-include(":llm")
+include(":core")
+include(":feature")
+include(":core:domain")
+include(":core:data")
+include(":core:model")
+include(":feature:llm")

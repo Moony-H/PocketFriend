@@ -2,6 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="11">
+      <module name="PocketFriend.data" target="21" />
+      <module name="PocketFriend.domain" target="21" />
+      <module name="PocketFriend.llm" target="21" />
       <module name="PoketFriend.app" target="21" />
       <module name="PoketFriend.data" target="21" />
       <module name="PoketFriend.domain" target="21" />
