@@ -15,6 +15,10 @@ fun ChatScreen(
     modifier: Modifier = Modifier
 ) {
     Box(modifier = modifier) {
-        Text(modifier = Modifier.align(Alignment.Center), text = "hello", fontSize = 30.sp)
+        Text(
+            modifier = Modifier.align(Alignment.Center),
+            text = "hello",
+            fontSize = 30.sp
+        )
     }
 }

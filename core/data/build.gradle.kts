@@ -43,10 +43,14 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.paging)
+    ksp(libs.androidx.room.compiler)
+
     // hilt
     implementation(libs.hilt.android)
     ksp(libs.hilt.android.compiler)
 
     api(project(":core:model"))
-    api(project(":core:domain"))
 }
