@@ -1,8 +1,8 @@
 package com.moony.model
 
-import com.moony.model.type.ChatRole
+sealed class Chat(
+    val text: String,
+)
 
-interface Chat : Copyable<Chat> {
-    val text: String
-    val role: ChatRole
-}
+class UserChat(text: String) : Chat(text)
+class AiChat(text: String) : Chat(text)
