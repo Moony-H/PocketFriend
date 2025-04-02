@@ -1,5 +1,6 @@
 package com.moony.data.model
 
+import androidx.room.Entity
 import com.moony.model.AiChat
 import com.moony.model.Chat
 import com.moony.model.UserChat
